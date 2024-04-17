@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:play_audio/player.dart';
 import 'dart:async';
 
 import 'package:play_audio/player2.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Player(
-          url: 'https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav'),
+          // url: 'https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav'
+          ),
     );
   }
 }
